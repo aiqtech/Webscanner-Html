@@ -6,6 +6,9 @@ Users can pick between scan.html (User Interface which need clicking) or scan2.h
 
 ![alt text](https://github.com/aiqtech/webscanner-html/blob/Image/scan1.jpg)
 Scan.html
+![alt text](https://github.com/aiqtech/webscanner-html/blob/Image/scan%202.jpg)
+Scan2.html
+
 
 ## Appid and appsecret 
 Before using the aiq-wen-sdk, an AppID/Secret pair is required. 
