@@ -43,7 +43,7 @@ Note if this option is turned off, the dashboard would not shown the location on
 Search using Image
 ----------------
 Remember to put in the image and video triggers into the dashboard: [[https://dashboard.aiq.tech](https://dashboard.aiq.tech)) , else it would not return result.
-![alt text](https://github.com/aiqtech/webscanner-html/blob/Image/scan1.jpg)
+![alt text](https://github.com/aiqtech/webscanner-html/blob/Image/dashboard.png)
 Once done, you can start scanning! Happy scanning!
 
 
