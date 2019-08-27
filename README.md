@@ -17,6 +17,12 @@ Once obtain you would need to enter the value got from the dashboard and key it 
 	var appid = 'appid obtain from dashboard'; 
 	//replace with your app secret generated from your dashboard
 	var appsecret = 'appsecret obtained from dashboard';
+```  
+## Pairing with Webscanner
+Once obtain you would need to enter the value got from the dashboard and key it into the web scanner.
+```objc
+//instruction timer
+	options['instructionInterval'] = 10000;
 ```   
 
 Search using Image
