@@ -28,5 +28,7 @@ Once obtain you would need to enter the value got from the dashboard and key it 
 Search using Image
 ----------------
 Remember to put in the image and video triggers into the dashboard: [[https://dashboard.aiq.tech](https://dashboard.aiq.tech)) , else it would not return result.
+![alt text] (https://github.com/aiqtech/webscanner-html/blob/master/Screen%20Shot%202019-08-27%20at%2012.20.31%20PM.png)
 Once done, you can start scanning! Happy scanning!
+
 
