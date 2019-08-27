@@ -18,11 +18,20 @@ Once obtain you would need to enter the value got from the dashboard and key it 
 	//replace with your app secret generated from your dashboard
 	var appsecret = 'appsecret obtained from dashboard';
 ```  
-## Pairing with Webscanner
-Once obtain you would need to enter the value got from the dashboard and key it into the web scanner.
+## Editing the intruction timer only applicable to scan2.html
+User can edit the timer to show no result screen on timer to show up. note the unit is in milliseconds.
+the default is 10000 milliseconds which is equal to 10 seconds.
 ```objc
 //instruction timer
 	options['instructionInterval'] = 10000;
+```   
+
+## Turning on geolocation
+Users can choose whether to pop up the enable the geolocation setting on the web scanner. 
+Note if this option is turned off, the dashboard would not shown the location on the analytics.
+```objc
+//set 0 to disable location
+	options['geoloc'] = 1;
 ```   
 
 Search using Image
