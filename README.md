@@ -23,7 +23,18 @@ Once obtain you would need to enter the value got from the dashboard and key it 
 	var appid = 'appid obtain from dashboard'; 
 	//replace with your app secret generated from your dashboard
 	var appsecret = 'appsecret obtained from dashboard';
+``` 
+##URL Parser
+The function allows passing parameters like example date of birth and gender in the url, (All those parameters available in our API documentation: [[https://github.com/aiqtech/iq-Dashboard-Documents/blob/master/AIQ-Platform-Application-Rest-API.pdf](https://github.com/aiqtech/iq-Dashboard-Documents/blob/master/AIQ-Platform-Application-Rest-API.pdf)))
+```objc
+  //replace with your app ID generated from your dashboard
+var options = {};
+	var searchParams = new URLSearchParams(window.location.search)
+	searchParams.forEach(function(value, key) {
+		options[key]=value;
+	});
 ```  
+
 ## Editing the intruction timer only applicable to scan2.html
 User can edit the timer to show no result screen on timer to show up. note the unit is in milliseconds.
 the default is 10000 milliseconds which is equal to 10 seconds.
