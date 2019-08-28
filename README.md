@@ -6,7 +6,7 @@ Users can pick between scan.html (User Interface which need clicking) or scan2.h
 
 ![alt text](https://github.com/aiqtech/webscanner-html/blob/Image/scan1.jpg)
 
-![alt text](https://github.com/aiqtech/webscanner-html/blob/Image/scan%202.jpg)
+<strong>bscan.html</strong>                     <strong>bscan2.html</strong>
 
 
 
