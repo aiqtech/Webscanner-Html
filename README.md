@@ -5,9 +5,9 @@ Easy Implementation of web scanner with HTML.
 Users can pick between scan.html (User Interface which need clicking) or scan2.html (User interface with just scanning immidiately)
 
 ![alt text](https://github.com/aiqtech/webscanner-html/blob/Image/scan1.jpg)
-Scan.html
+
 ![alt text](https://github.com/aiqtech/webscanner-html/blob/Image/scan%202.jpg)
-Scan2.html
+
 
 
 ## Appid and appsecret 
