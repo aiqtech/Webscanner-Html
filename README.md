@@ -25,12 +25,12 @@ Once obtain you would need to enter the value got from the dashboard and key it 
 	var appsecret = 'appsecret obtained from dashboard';
 ``` 
 ## URL Parser
-The web scanner can accept the following key value pair parameters:
-lat - Latitude
-long - Longtitude
-gender - Gender (male/female/other)
-dob - Date of Birth (YYYY-MM-DD per https://www.iso.org/iso-8601-date-and-time-format.html)
-user-agent - User Agent of device
+The web scanner can accept the following key value pair parameters:<br>
+lat - Latitude<br>
+long - Longtitude<br>
+gender - Gender (male/female/other)<br>
+dob - Date of Birth (YYYY-MM-DD per https://www.iso.org/iso-8601-date-and-time-format.html)<br>
+user-agent - User Agent of device<br>
 ```objc
 https://yourdomain.com/scan.html?lat=<latitude>&long=<longtitude>&gender=male&dob=2000-01-01&user-agent=<device user agent>
 ```
