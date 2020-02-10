@@ -7,7 +7,7 @@ options['scannerVersion'] = 2; // 1(old) || 2(new)
 
 ![alt text](https://github.com/aiqtech/webscanner-html/blob/Image/scan1.jpg)
 
-&nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; <strong>['scannerVersion'] = 2</strong> &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;  <strong>['scannerVersion'] = 1</strong>
+&nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; <strong>['scannerVersion'] = 2</strong> &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  <strong>['scannerVersion'] = 1</strong>
 
 
 
