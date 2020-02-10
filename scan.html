@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<!-- Google Tag Manager -->
+	<!-- End Google Tag Manager -->
+<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+<link rel="shortcut icon" type="favicon" href="images/favicon_32x32.ico">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/exif-js"></script>
+<script src="js/canvas-to-blob.min.js"></script>
+<script src="js/scanto.js?19-08-18"></script>
+<link rel="stylesheet" href="css/scanto.css?19-08-18">
+<style>
+			html, body {
+				height: 100%;
+			}
+			body {
+				margin: 0;
+			}
+			/* For mobile phones and tablets: */
+			    #scanner, #selectedImage {
+				width: 100%;
+				margin:auto;	
+				height: 100%;		
+			    }				
+			/* #### Mobile Phones Landscape #### */
+			@media screen and (max-device-width: 640px) and (orientation: landscape){
+			    #scanner, #selectedImage {
+				width: 100%;
+				margin:auto;
+				height: 100%;	
+			    }
+			}
+			/* #### Desktops #### */
+			@media screen and (min-width: 1024px){
+				#scanner, #selectedImage {
+					width:640px;
+					margin:auto;
+					overflow:hidden;
+					height: 100%;	
+				}
+			}
+			/* Landscape of Glaxy Tab2 */
+		        @media screen and (max-device-width: 1280px) and (orientation: landscape),
+			/* Landscape of Glaxy Tabs*/
+		        screen and (max-device-width: 1280px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2){
+			    #scanner, #selectedImage {
+				width: 100%;
+				margin:auto;
+				height: 100%;	
+			    }
+			}	
+						
+</style>
+<script>
+$( document ).ready(function() {
+	//var appid = '247fa0c7d331d6125d47e7a695cc4d6fe831094d0ce3c6fc3e'; // - this is working on current production server but not working with staging server - 15th Jan 2018
+	var appid = '263520e2382302e98a690a0af5c0929333bddf24e93347ce5b';// production AIQ
+	var apiversion = '0.12';
+	var appsecret = '5b6f4245f2c22aa184738c3dd910499f4d7d960f00bd658b38b82974133d4347';
+
+	var options = {};
+	var searchParams = new URLSearchParams(window.location.search)
+	searchParams.forEach(function(value, key) {
+		options[key]=value;
+	});
+
+	//instruction timer
+	options['instructionInterval'] = 10000;
+	//set 0 to disable location
+	options['geoloc'] = 1;
+	options['isRedirectionHtml'] = false;//using redirection.html
+	options['isUsingNotFoundRedirectUrl'] = false;//using notFoundRedirectUrl
+	options['notFoundRedirectUrl'] = null;//URL to redirect to
+	options['scannerVersion'] = 2; // 1(old) || 2(new) 
+	initialize( apiversion, appid, appsecret, options );
+	//aiqSetBanner( 'images/aiqBanner.jpg', 'https://www.aiq.tech' );
+});
+</script>
+</head>
+
+<body>
+	<!-- Google Tag Manager (noscript) -->
+	<!-- End Google Tag Manager (noscript) -->
+<div id="scanner" align="center" >
+</div>
+</body>
+</html>
