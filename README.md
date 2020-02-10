@@ -2,7 +2,8 @@
 Easy Implementation of web scanner with HTML.
 
 # scan.html and scan2.html
-Users can pick between scan.html (User Interface which need clicking) or scan2.html (User interface with just scanning immidiately)
+Users can pick between scan.html the interface by editing the code in the HTML
+options['scannerVersion'] = 2; // 1(old) || 2(new) 
 
 ![alt text](https://github.com/aiqtech/webscanner-html/blob/Image/scan1.jpg)
 
@@ -53,6 +54,13 @@ Note if this option is turned off or the user rejects this permission, the dashb
 	//set 0 to disable location
 	options['geoloc'] = 1;
 ```   
+
+## Turning on NotFoundRedirectUrl
+NotFoundRedirectUrl functionality allows the scanner to redirect to a link when no result is returned after 5 seconds.
+```objc
+	options['isUsingNotFoundRedirectUrl'] = false;//using notFoundRedirectUrl
+	options['notFoundRedirectUrl'] = null;//URL to redirect to
+```  
 
 Search using Image
 ----------------
