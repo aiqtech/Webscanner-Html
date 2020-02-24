@@ -1,7 +1,7 @@
 # webscanner-html
 Easy Implementation of web scanner with HTML.
 
-# scan.html and scan2.html
+# Scan view
 Users can pick between scan.html the interface by editing the code in the HTML
 options['scannerVersion'] = 2; // 1(old) || 2(new) 
 
