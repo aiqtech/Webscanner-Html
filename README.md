@@ -14,7 +14,7 @@ options['scannerVersion'] = 2; // 1(old) || 2(new)
 ## Appid and appsecret 
 Before using the aiq-wen-sdk, an AppID/Secret pair is required. 
 This can be obtained from the client dashboard at: 
-[[https://dashboard.aiq.tech](https://dashboard.aiq.tech))
+[[https://dashboard.scanto.tech/](https://dashboard.scanto.tech/))
 You also need to ingest some image/video before you can search for them.
 
 ## Pairing with Webscanner
@@ -64,7 +64,7 @@ NotFoundRedirectUrl functionality allows the scanner to redirect to a link when 
 
 Search using Image
 ----------------
-Remember to put in the image and video triggers into the dashboard: [[https://dashboard.aiq.tech](https://dashboard.aiq.tech)) , else it would not return result.
+Remember to put in the image and video triggers into the dashboard: [[https://dashboard.scanto.tech/](https://dashboard.scanto.tech/) , else it would not return result.
 ![alt text](https://github.com/aiqtech/webscanner-html/blob/Image/dashboard.png)
 Once done, you can start scanning! Happy scanning!
 
