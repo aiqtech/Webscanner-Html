@@ -68,4 +68,11 @@ Remember to put in the image and video triggers into the dashboard: [[https://da
 ![alt text](https://github.com/aiqtech/webscanner-html/blob/Image/dashboard.png)
 Once done, you can start scanning! Happy scanning!
 
+![alt text](https://github.com/scan-to/webscanner-html/blob/master/Screenshot%202021-11-06%20at%207.55.43%20AM.png)
+After Clicking on ‘Scan Now’, it will redirect to the scanner page where it will ask to allow the camera for scanning and it will ask for the enable location.
+Then after that it will initialize the scanner. 
+Users can choose whether to enable the geolocation setting on the web scanner.  
+This would result in the web scanner prompting the user to allow location for the scanner.
+But if this option is turned off or the user rejects this permission, the dashboard will utilize the user's IP address to identify an approximate location.
 
+This way you can scan the image or video.
